@@ -23,6 +23,11 @@ Public Github Repo: https://github.com/hatwin98/chin-muoi/
 - User should be able to check the 5 day forecast.
 - Shows date, humidity, and temperatures.
 
+  ## Screenshot
+
+  <img width="1213" alt="weather app" src="https://github.com/hatwin98/chin-muoi/assets/143030127/7b0d00b3-7223-43ec-aac2-f6b113f418ca">
+
+
 ## Summary
 
 The purpose of this challenge was to use server side apis in order to create a weather application that shows the 5 day forecast. 
