@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>My Unique Weather Dashboard</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <div class="jumbotron container-fluid mt-2 text-center p-2">
+    <h1>My Weather Dashboard</h1>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-4 bg-light">
+        <h4 class="pt-1">Enter a City:</h4>
+        <div class="input-group mb-3">
+          <input type="text" class="form-control" id="search-city" aria-label="City Search" aria-describedby="search-button">
+          <div class="input-group-append">
+            <button class="btn bg-info text-light" id="search-button"><i class="fa fa-search"></i></button>
+          </div>
+        </div>
+        <ul class="list-group"></ul>
+      </div>
+
+      <div class="col-sm-8 bg-info">
+        <div class="row ml-2">
+          <div class="col-sm-12" id="current-weather">
+            <h3 class="city-name mb-1 mt-2 bolder" id="current-city"></h3>
+
+            <p class="text-light">Temperature: <span class="current" id="temperature"></span></p>
+
+            <p class="text-light">Humidity: <span class="current" id="humidity"></span></p>
+            
+            <p class="text-light">Wind Speed: <span class="current" id="wind-speed"></span></p>
+        </div>
+
+        <div class="col-sm-12" id="future-weather">
+            <h3>5-Day Forecast:</h3>
+            <div class="row text-light">
+              <!-- Forecast for each day -->
+              <div class="col-sm-2 bg-light forecast text-dark ml-2 mb-3 p-2 mt-2 rounded">
+                <p>Date: <span id="Date0"></span></p>
+                <p>Temp: <span id="Temp0"></span></p>
+                <p>Humidity: <span id="Humidity0"></span></p>
+              </div>
+              <div class="col-sm-2 bg-light forecast text-dark ml-2 mb-3 p-2 mt-2 rounded">
+                <p>Date: <span id="Date1"></span></p>
+                <p>Temp: <span id="Temp1"></span></p>
+                <p>Humidity: <span id="Humidity1"></span></p>
+              </div>
+              <div class="col-sm-2 bg-light forecast text-dark ml-2 mb-3 p-2 mt-2 rounded">
+                <p>Date: <span id="Date2"></span></p>
+                <p>Temp: <span id="Temp2"></span></p>
+                <p>Humidity: <span id="Humidity2"></span></p>
+              </div>
+              <div class="col-sm-2 bg-light forecast text-dark ml-2 mb-3 p-2 mt-2 rounded">
+                <p>Date: <span id="Date3"></span></p>
+                <p>Temp: <span id="Temp3"></span></p>
+                
+                <p>Humidity: <span id="Humidity3"></span></p>
+              </div>
+              <div class="col-sm-2 bg-light forecast text-dark ml-2 mb-3 p-2 mt-2 rounded">
+                <p>Date: <span id="Date4"></span></p>
+                <p>Temp: <span id="Temp4"></span></p>
+                <p>Humidity: <span id="Humidity4"></span></p>
+              </div>
+            </div>
+          </div>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+
+</body>
+
+</html>
