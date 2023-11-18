@@ -15,7 +15,7 @@ Deployed link: https://hatwin98.github.io/chin-muoi/
 
 Public Github Repo: https://github.com/hatwin98/chin-muoi/
 
-## Module 1 Requirements
+## Module 6 Requirements
 
 - Application's links all function correctly.
 - Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
